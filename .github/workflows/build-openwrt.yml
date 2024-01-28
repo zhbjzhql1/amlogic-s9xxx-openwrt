@@ -191,13 +191,12 @@ on:
       builder_name:
         description: "Set OpenWrt builder signature."
         required: false
-        default: "ophub"
+        default: "zhbjzhql1"
         type: choice
         options:
           - ophub
           - angel
-          - yourname
-
+          - zhbjzhql1
 env:
   FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
   CONFIG_FILE: config/${{ inputs.source_branch }}/config
